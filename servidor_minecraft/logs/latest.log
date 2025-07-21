@@ -1251,3 +1251,9 @@ com.google.gson.JsonSyntaxException: Unknown item 'outer_end:azure_chest'
 [21Jul2025 21:52:50.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [Not mushroom for desert]
 [21Jul2025 21:53:50.234] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity realmrpg_demons:demon_lord but it was marked as removed already
 [21Jul2025 21:57:32.277] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/40865, l='ServerLevel[otrserver]', x=-45.02, y=-20.00, z=157.18] died: Toxic Slime was killed
+[21Jul2025 21:58:09.277] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/40957, l='ServerLevel[otrserver]', x=-31.22, y=-20.00, z=55.26] died: Toxic Slime was killed
+[21Jul2025 21:59:46.277] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/41150, l='ServerLevel[otrserver]', x=-53.26, y=-20.00, z=69.74] died: Toxic Slime was killed
+[21Jul2025 22:00:47.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [Into Fire]
+[21Jul2025 22:00:48.032] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity realmrpg_demons:demon_lord but it was marked as removed already
+[21Jul2025 22:01:10.030] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity realmrpg_demons:demon_lord but it was marked as removed already
+[21Jul2025 22:01:40.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [Hot to the Touch]
