@@ -1227,3 +1227,6 @@ com.google.gson.JsonSyntaxException: Unknown item 'outer_end:azure_chest'
 [21Jul2025 21:14:55.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
 [21Jul2025 21:14:55.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 1<--[HERE]
 [21Jul2025 21:17:21.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [Tactical Fishing]
+[21Jul2025 21:29:14.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [Ice Bucket Challenge]
+[21Jul2025 21:35:36.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 was blown up by Creeper
+[21Jul2025 21:36:43.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 was blown up by Creeper

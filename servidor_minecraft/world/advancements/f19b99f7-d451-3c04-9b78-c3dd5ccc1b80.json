@@ -3526,23 +3526,11 @@
     },
     "done": true
   },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-07-21 21:26:13 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/brown_banner": {
     "criteria": {
       "has_brown_wool": "2025-07-21 21:03:42 +0000"
     },
     "done": true
-  },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-07-21 21:26:13 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/decorations/brown_bed": {
     "criteria": {
@@ -3550,59 +3538,23 @@
     },
     "done": true
   },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-07-21 21:26:13 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
       "has_brown_wool": "2025-07-21 21:03:42 +0000"
     },
     "done": true
   },
-  "incendium:technical/feed_ghastling": {
+  "spartanshields:recipes/obsidian_tower_shield": {
     "criteria": {
-      "log_spam_fixer": "2025-07-21 21:26:13 +0000"
+      "has_obsidian": "2025-07-21 21:29:14 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_player_hurt": {
+  "spartanshields:recipes/obsidian_basic_shield": {
     "criteria": {
-      "log_spam_fixer": "2025-07-21 21:26:13 +0000"
+      "has_obsidian": "2025-07-21 21:29:14 +0000"
     },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-07-21 21:26:13 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-07-21 21:26:13 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-07-21 21:26:13 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-07-21 21:26:13 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-07-21 21:26:13 +0000"
-    },
-    "done": false
+    "done": true
   },
   "minecraft:husbandry/tactical_fishing": {
     "criteria": {
@@ -3610,11 +3562,11 @@
     },
     "done": true
   },
-  "incendium:technical/holy_wrath": {
+  "minecraft:story/form_obsidian": {
     "criteria": {
-      "log_spam_fixer": "2025-07-21 21:26:13 +0000"
+      "obsidian": "2025-07-21 21:29:14 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
@@ -3622,11 +3574,11 @@
     },
     "done": true
   },
-  "incendium:technical/on_block": {
+  "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
-      "log_spam_fixer": "2025-07-21 21:26:13 +0000"
+      "has_obsidian": "2025-07-21 21:29:14 +0000"
     },
-    "done": false
+    "done": true
   },
   "DataVersion": 3465
 }
