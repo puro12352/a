@@ -1238,3 +1238,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'outer_end:azure_chest'
 [21Jul2025 21:46:07.784] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 339.8610460329801] -> [-859.8064706288278, 65.08911053889207, 1.2290061650000006E7] returning empty list! this might break things
 [21Jul2025 21:46:12.784] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 344.28887036287426] -> [-857.5207261662989, 65.0891318284497, 1.2290061650000006E7] returning empty list! this might break things
 [21Jul2025 21:46:17.786] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 349.93251205794513] -> [-850.7663176767528, 65.07729101275281, 1.2290061650000006E7] returning empty list! this might break things
+[21Jul2025 21:51:53.621] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[21Jul2025 21:51:54.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [Incendium]
+[21Jul2025 21:51:54.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has reached the goal [Nether's Overhaul]
+[21Jul2025 21:51:54.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [We Need to Go Deeper]
+[21Jul2025 21:51:54.623] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[21Jul2025 21:51:55.624] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[21Jul2025 21:51:56.626] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[21Jul2025 21:51:57.198] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8527ms or 170 ticks behind
+[21Jul2025 21:51:57.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [A Terrible Fortress]
+[21Jul2025 21:51:57.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [Radioactive]
+[21Jul2025 21:52:50.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [Not mushroom for desert]
+[21Jul2025 21:53:50.234] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity realmrpg_demons:demon_lord but it was marked as removed already
+[21Jul2025 21:57:32.277] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/40865, l='ServerLevel[otrserver]', x=-45.02, y=-20.00, z=157.18] died: Toxic Slime was killed
