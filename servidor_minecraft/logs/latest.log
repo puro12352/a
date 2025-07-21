@@ -1226,3 +1226,4 @@ com.google.gson.JsonSyntaxException: Unknown item 'outer_end:azure_chest'
 [21Jul2025 20:58:09.684] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 340.90930335830103] -> [-859.7639540505619, 65.31687668393907, 1.2290061650000006E7] returning empty list! this might break things
 [21Jul2025 21:14:55.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
 [21Jul2025 21:14:55.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 1<--[HERE]
+[21Jul2025 21:17:21.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [Tactical Fishing]
