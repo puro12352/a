@@ -1191,3 +1191,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'outer_end:azure_chest'
 [21Jul2025 16:22:30.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 joined the game
 [21Jul2025 16:22:30.472] [Server thread/INFO] [Jade/]: Syncing config to Toshi003 (f19b99f7-d451-3c04-9b78-c3dd5ccc1b80)
 [21Jul2025 16:22:33.781] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3405ms or 68 ticks behind
+[21Jul2025 17:28:19.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 burned to death
+[21Jul2025 17:28:21.866] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[21Jul2025 17:28:39.627] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[21Jul2025 17:29:48.527] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[21Jul2025 17:29:48.527] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[21Jul2025 17:29:48.528] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[21Jul2025 17:30:11.727] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
