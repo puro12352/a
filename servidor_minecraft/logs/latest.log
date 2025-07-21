@@ -1224,3 +1224,5 @@ com.google.gson.JsonSyntaxException: Unknown item 'outer_end:azure_chest'
 [21Jul2025 20:57:59.682] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 344.05305566149] -> [-860.5762314062674, 65.0998924583676, 1.2290061650000006E7] returning empty list! this might break things
 [21Jul2025 20:58:04.683] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 342.7877756967316] -> [-857.141300458184, 65.11089024905232, 1.2290061650000006E7] returning empty list! this might break things
 [21Jul2025 20:58:09.684] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 340.90930335830103] -> [-859.7639540505619, 65.31687668393907, 1.2290061650000006E7] returning empty list! this might break things
+[21Jul2025 21:14:55.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[21Jul2025 21:14:55.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 1<--[HERE]
