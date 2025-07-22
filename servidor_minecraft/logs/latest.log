@@ -1,122 +1,122 @@
-[21Jul2025 18:55:08.689] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[21Jul2025 18:55:08.693] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[21Jul2025 18:55:10.478] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[21Jul2025 18:55:10.540] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/a/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[21Jul2025 18:55:10.993] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/a/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[21Jul2025 18:55:10.995] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/a/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[21Jul2025 18:55:10.997] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/a/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[21Jul2025 18:55:10.999] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/a/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[21Jul2025 18:55:11.649] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 31 dependencies adding them to mods collection
-[21Jul2025 18:55:14.616] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[21Jul2025 18:55:14.682] [main/ERROR] [mixin/]: Mixin config celestisynth.mixins.json does not specify "minVersion" property
-[21Jul2025 18:55:14.686] [main/ERROR] [mixin/]: Mixin config arclight.mixins.json does not specify "minVersion" property
-[21Jul2025 18:55:14.844] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-[21Jul2025 18:55:14.848] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[21Jul2025 18:55:14.982] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 116 options available, 0 override(s) found
-[21Jul2025 18:55:15.014] [main/WARN] [mixin/]: Reference map 'arclight.mixins.refmap.json' for arclight.mixins.json could not be read. If this is a development environment you can ignore this message
-[21Jul2025 18:55:15.016] [main/WARN] [mixin/]: Reference map 'mixins.luminous_nether.refmap.json' for mixins.luminous_nether.json could not be read. If this is a development environment you can ignore this message
-[21Jul2025 18:55:15.035] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
-[21Jul2025 18:55:15.082] [main/WARN] [mixin/]: Reference map 'eureka-1201-forge-refmap.json' for vs_eureka.mixins.json could not be read. If this is a development environment you can ignore this message
-[21Jul2025 18:55:16.249] [main/WARN] [mixin/]: Error loading class: dynamic_fps/impl/DynamicFPSMod (java.lang.ClassNotFoundException: dynamic_fps.impl.DynamicFPSMod)
-[21Jul2025 18:55:16.249] [main/WARN] [mixin/]: @Mixin target dynamic_fps.impl.DynamicFPSMod was not found mixins.sodiumoptionsmodcompat.json:DynamicFPSConfigAccessor
-[21Jul2025 18:55:17.011] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/deployer/DeployerHandler (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.deployer.DeployerHandler)
-[21Jul2025 18:55:17.011] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.deployer.DeployerHandler was not found valkyrienskies-common.mixins.json:mod_compat.create.IMixinDeployerHandler
-[21Jul2025 18:55:17.013] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/deployer/DeployerMovementBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.deployer.DeployerMovementBehaviour)
-[21Jul2025 18:55:17.014] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.deployer.DeployerMovementBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.IMixinDeployerMovementBehaviour
-[21Jul2025 18:55:17.016] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/fan/AirCurrent (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.fan.AirCurrent)
-[21Jul2025 18:55:17.016] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.fan.AirCurrent was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinAirCurrent
-[21Jul2025 18:55:17.021] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/fan/AirFlowParticle (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.fan.AirFlowParticle)
-[21Jul2025 18:55:17.022] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.fan.AirFlowParticle was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinAirFlowParticle
-[21Jul2025 18:55:17.028] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/belt/transport/BeltMovementHandler (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.belt.transport.BeltMovementHandler)
-[21Jul2025 18:55:17.031] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.belt.transport.BeltMovementHandler was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinBeltMovementHandler
-[21Jul2025 18:55:17.034] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/Contraption (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.Contraption)
-[21Jul2025 18:55:17.035] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.Contraption was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinContraption
-[21Jul2025 18:55:17.038] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/ContraptionCollider (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.ContraptionCollider)
-[21Jul2025 18:55:17.041] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.ContraptionCollider was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinContraptionCollider
-[21Jul2025 18:55:17.047] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/depot/EntityLauncher (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.depot.EntityLauncher)
-[21Jul2025 18:55:17.048] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.depot.EntityLauncher was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinEntityLauncher
-[21Jul2025 18:55:17.052] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/redstone/link/RedstoneLinkNetworkHandler (java.lang.ClassNotFoundException: com.simibubi.create.content.redstone.link.RedstoneLinkNetworkHandler)
-[21Jul2025 18:55:17.052] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.redstone.link.RedstoneLinkNetworkHandler was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinRedstoneLinkNetworkHandler
-[21Jul2025 18:55:17.059] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/depot/SharedDepotBlockMethods (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.depot.SharedDepotBlockMethods)
-[21Jul2025 18:55:17.059] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.depot.SharedDepotBlockMethods was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinSharedDepotBlockMethods
-[21Jul2025 18:55:17.065] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/collision/Matrix3d (java.lang.ClassNotFoundException: com.simibubi.create.foundation.collision.Matrix3d)
-[21Jul2025 18:55:17.065] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.collision.Matrix3d was not found valkyrienskies-common.mixins.json:mod_compat.create.accessors.Matrix3dAccessor
-[21Jul2025 18:55:17.070] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/outliner/Outline$OutlineParams (java.lang.ClassNotFoundException: com.simibubi.create.foundation.outliner.Outline$OutlineParams)
-[21Jul2025 18:55:17.074] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.outliner.Outline$OutlineParams was not found valkyrienskies-common.mixins.json:mod_compat.create.accessors.OutlineParamsAccessor
-[21Jul2025 18:55:17.077] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingMovementBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.base.BlockBreakingMovementBehaviour)
-[21Jul2025 18:55:17.078] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.base.BlockBreakingMovementBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinBlockBreakingMovementBehaviour
-[21Jul2025 18:55:17.080] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/blockEntity/behaviour/filtering/FilteringBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.foundation.blockEntity.behaviour.filtering.FilteringBehaviour)
-[21Jul2025 18:55:17.081] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.blockEntity.behaviour.filtering.FilteringBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinFilteringBehaviour
-[21Jul2025 18:55:17.089] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/redstone/link/LinkBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.redstone.link.LinkBehaviour)
-[21Jul2025 18:55:17.090] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.redstone.link.LinkBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinLinkBehaviour
-[21Jul2025 18:55:17.093] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/blockEntity/behaviour/scrollValue/ScrollValueBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.foundation.blockEntity.behaviour.scrollValue.ScrollValueBehaviour)
-[21Jul2025 18:55:17.093] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.blockEntity.behaviour.scrollValue.ScrollValueBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinScrollValueBehaviour
-[21Jul2025 18:55:17.096] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/blockEntity/behaviour/filtering/SidedFilteringBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.foundation.blockEntity.behaviour.filtering.SidedFilteringBehaviour)
-[21Jul2025 18:55:17.096] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.blockEntity.behaviour.filtering.SidedFilteringBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinSidedFilteringBehaviour
-[21Jul2025 18:55:17.102] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/crusher/CrushingWheelBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.crusher.CrushingWheelBlock)
-[21Jul2025 18:55:17.102] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.crusher.CrushingWheelBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.block.MixinCrushingWheelBlock
-[21Jul2025 18:55:17.107] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/depot/EjectorBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.depot.EjectorBlock)
-[21Jul2025 18:55:17.108] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.depot.EjectorBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.block.MixinEjectorBlock
-[21Jul2025 18:55:17.112] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/redstone/contact/RedstoneContactBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.redstone.contact.RedstoneContactBlock)
-[21Jul2025 18:55:17.119] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.redstone.contact.RedstoneContactBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.block.MixinRedstoneContactBlock
-[21Jul2025 18:55:17.124] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/chassis/StickerBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.chassis.StickerBlock)
-[21Jul2025 18:55:17.124] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.chassis.StickerBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.block.MixinStickerBlock
-[21Jul2025 18:55:17.127] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/bearing/MechanicalBearingBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.bearing.MechanicalBearingBlockEntity)
-[21Jul2025 18:55:17.127] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.bearing.MechanicalBearingBlockEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.blockentity.IMixinMechanicalBearingTileEntity
-[21Jul2025 18:55:17.130] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/crusher/CrushingWheelControllerBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.crusher.CrushingWheelControllerBlockEntity)
-[21Jul2025 18:55:17.130] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.crusher.CrushingWheelControllerBlockEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.blockentity.MixinCrushingWheelControllerTileEntity
-[21Jul2025 18:55:17.133] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/depot/EjectorBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.depot.EjectorBlockEntity)
-[21Jul2025 18:55:17.133] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.depot.EjectorBlockEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.blockentity.MixinEjectorTileEntity
-[21Jul2025 18:55:17.136] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/fan/EncasedFanBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.fan.EncasedFanBlockEntity)
-[21Jul2025 18:55:17.136] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.fan.EncasedFanBlockEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.blockentity.MixinEncasedFanTileEntity
-[21Jul2025 18:55:17.138] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/blockEntity/behaviour/ValueBox (java.lang.ClassNotFoundException: com.simibubi.create.foundation.blockEntity.behaviour.ValueBox)
-[21Jul2025 18:55:17.139] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.blockEntity.behaviour.ValueBox was not found valkyrienskies-common.mixins.json:mod_compat.create.client.MixinValueBox
-[21Jul2025 18:55:17.141] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/AbstractContraptionEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.AbstractContraptionEntity)
-[21Jul2025 18:55:17.141] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.AbstractContraptionEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.entity.MixinAbstractContraptionEntity
-[21Jul2025 18:55:17.148] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/trains/entity/CarriageContraptionEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.trains.entity.CarriageContraptionEntity)
-[21Jul2025 18:55:17.150] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.trains.entity.CarriageContraptionEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.entity.MixinCarriageContraptionEntity
-[21Jul2025 18:55:17.154] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/ControlledContraptionEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.ControlledContraptionEntity)
-[21Jul2025 18:55:17.154] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.ControlledContraptionEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.entity.MixinControlledContraptionEntity
-[21Jul2025 18:55:17.157] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/actors/seat/SeatEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.actors.seat.SeatEntity)
-[21Jul2025 18:55:17.157] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.actors.seat.SeatEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.entity.MixinSeatEntity
-[21Jul2025 18:55:17.159] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/actors/trainControls/ControlsInputPacket (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.actors.trainControls.ControlsInputPacket)
-[21Jul2025 18:55:17.160] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.actors.trainControls.ControlsInputPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinControlsInputPacket
-[21Jul2025 18:55:17.162] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/trains/track/CurvedTrackDestroyPacket (java.lang.ClassNotFoundException: com.simibubi.create.content.trains.track.CurvedTrackDestroyPacket)
-[21Jul2025 18:55:17.162] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.trains.track.CurvedTrackDestroyPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinCurvedTrackDestroyPacket
-[21Jul2025 18:55:17.165] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/glue/SuperGlueRemovalPacket (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.glue.SuperGlueRemovalPacket)
-[21Jul2025 18:55:17.165] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.glue.SuperGlueRemovalPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinSuperGlueRemovalPacket
-[21Jul2025 18:55:17.167] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/networking/BlockEntityConfigurationPacket (java.lang.ClassNotFoundException: com.simibubi.create.foundation.networking.BlockEntityConfigurationPacket)
-[21Jul2025 18:55:17.168] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.networking.BlockEntityConfigurationPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinTileEntityConfigurationPacket
-[21Jul2025 18:55:17.171] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/trains/entity/TrainRelocationPacket (java.lang.ClassNotFoundException: com.simibubi.create.content.trains.entity.TrainRelocationPacket)
-[21Jul2025 18:55:17.173] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.trains.entity.TrainRelocationPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinTrainRelocationPacket
-[21Jul2025 18:55:17.175] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/actors/seat/SeatBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.actors.seat.SeatBlock)
-[21Jul2025 18:55:17.178] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.actors.seat.SeatBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.pr.MixinSeatBlock
-[21Jul2025 18:55:17.181] [main/WARN] [mixin/]: Error loading class: rbasamoyai/createbigcannons/cannon_control/contraption/PitchOrientedContraptionEntity (java.lang.ClassNotFoundException: rbasamoyai.createbigcannons.cannon_control.contraption.PitchOrientedContraptionEntity)
-[21Jul2025 18:55:17.186] [main/WARN] [mixin/]: Error loading class: com/jamieswhiteshirt/reachentityattributes/ReachEntityAttributes (java.lang.ClassNotFoundException: com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes)
-[21Jul2025 18:55:17.274] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.base.BlockBreakingKineticBlockEntity)
-[21Jul2025 18:55:17.275] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.base.BlockBreakingKineticBlockEntity was not found valkyrienskies-forge.mixins.json:compat.create.MixinBlockBreakingKineticTileEntity
-[21Jul2025 18:55:17.280] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/millstone/MillstoneBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.millstone.MillstoneBlock)
-[21Jul2025 18:55:17.281] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.millstone.MillstoneBlock was not found valkyrienskies-forge.mixins.json:compat.create.MixinBlocks
-[21Jul2025 18:55:17.286] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/processing/basin/BasinBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.processing.basin.BasinBlock)
-[21Jul2025 18:55:17.286] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.processing.basin.BasinBlock was not found valkyrienskies-forge.mixins.json:compat.create.MixinBlocks
-[21Jul2025 18:55:17.289] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/chute/AbstractChuteBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.chute.AbstractChuteBlock)
-[21Jul2025 18:55:17.289] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.chute.AbstractChuteBlock was not found valkyrienskies-forge.mixins.json:compat.create.MixinBlocks
-[21Jul2025 18:55:17.293] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/ControlledContraptionEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.ControlledContraptionEntity)
-[21Jul2025 18:55:17.294] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.ControlledContraptionEntity was not found valkyrienskies-forge.mixins.json:compat.create.MixinControlledContraptionEntity
-[21Jul2025 18:55:17.300] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/common/gui/BlockEntityInventory (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.common.gui.BlockEntityInventory)
-[21Jul2025 18:55:17.303] [main/WARN] [mixin/]: Error loading class: net/dries007/tfc/world/TFCChunkGenerator (java.lang.ClassNotFoundException: net.dries007.tfc.world.TFCChunkGenerator)
-[21Jul2025 18:55:17.308] [main/WARN] [mixin/]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
-[21Jul2025 18:55:17.312] [main/WARN] [mixin/]: Error loading class: li/cil/tis3d/common/entity/InfraredPacketEntity (java.lang.ClassNotFoundException: li.cil.tis3d.common.entity.InfraredPacketEntity)
-[21Jul2025 18:55:17.314] [main/WARN] [mixin/]: Error loading class: me/desht/modularrouters/container/RouterMenu (java.lang.ClassNotFoundException: me.desht.modularrouters.container.RouterMenu)
-[21Jul2025 18:55:17.331] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[21Jul2025 18:55:17.332] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[21Jul2025 18:55:17.332] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
-[21Jul2025 18:55:17.334] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
-[21Jul2025 18:55:17.334] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
-[21Jul2025 18:55:17.335] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
-[21Jul2025 18:55:17.336] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
-[21Jul2025 18:55:17.336] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
-[21Jul2025 18:55:17.483] [main/ERROR] [mixin/]: valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
+[22Jul2025 23:37:09.059] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[22Jul2025 23:37:09.065] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[22Jul2025 23:37:16.572] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[22Jul2025 23:37:16.710] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/a/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[22Jul2025 23:37:17.268] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/a/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[22Jul2025 23:37:17.270] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/a/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[22Jul2025 23:37:17.322] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/a/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[22Jul2025 23:37:17.324] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/a/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[22Jul2025 23:37:18.214] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 31 dependencies adding them to mods collection
+[22Jul2025 23:37:21.183] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[22Jul2025 23:37:21.231] [main/ERROR] [mixin/]: Mixin config celestisynth.mixins.json does not specify "minVersion" property
+[22Jul2025 23:37:21.234] [main/ERROR] [mixin/]: Mixin config arclight.mixins.json does not specify "minVersion" property
+[22Jul2025 23:37:21.382] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[22Jul2025 23:37:21.385] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[22Jul2025 23:37:21.631] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 116 options available, 0 override(s) found
+[22Jul2025 23:37:21.651] [main/WARN] [mixin/]: Reference map 'arclight.mixins.refmap.json' for arclight.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Jul2025 23:37:21.654] [main/WARN] [mixin/]: Reference map 'mixins.luminous_nether.refmap.json' for mixins.luminous_nether.json could not be read. If this is a development environment you can ignore this message
+[22Jul2025 23:37:21.669] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
+[22Jul2025 23:37:21.704] [main/WARN] [mixin/]: Reference map 'eureka-1201-forge-refmap.json' for vs_eureka.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Jul2025 23:37:22.874] [main/WARN] [mixin/]: Error loading class: dynamic_fps/impl/DynamicFPSMod (java.lang.ClassNotFoundException: dynamic_fps.impl.DynamicFPSMod)
+[22Jul2025 23:37:22.874] [main/WARN] [mixin/]: @Mixin target dynamic_fps.impl.DynamicFPSMod was not found mixins.sodiumoptionsmodcompat.json:DynamicFPSConfigAccessor
+[22Jul2025 23:37:23.460] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/deployer/DeployerHandler (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.deployer.DeployerHandler)
+[22Jul2025 23:37:23.461] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.deployer.DeployerHandler was not found valkyrienskies-common.mixins.json:mod_compat.create.IMixinDeployerHandler
+[22Jul2025 23:37:23.464] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/deployer/DeployerMovementBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.deployer.DeployerMovementBehaviour)
+[22Jul2025 23:37:23.465] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.deployer.DeployerMovementBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.IMixinDeployerMovementBehaviour
+[22Jul2025 23:37:23.468] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/fan/AirCurrent (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.fan.AirCurrent)
+[22Jul2025 23:37:23.469] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.fan.AirCurrent was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinAirCurrent
+[22Jul2025 23:37:23.473] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/fan/AirFlowParticle (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.fan.AirFlowParticle)
+[22Jul2025 23:37:23.473] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.fan.AirFlowParticle was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinAirFlowParticle
+[22Jul2025 23:37:23.476] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/belt/transport/BeltMovementHandler (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.belt.transport.BeltMovementHandler)
+[22Jul2025 23:37:23.476] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.belt.transport.BeltMovementHandler was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinBeltMovementHandler
+[22Jul2025 23:37:23.480] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/Contraption (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.Contraption)
+[22Jul2025 23:37:23.480] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.Contraption was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinContraption
+[22Jul2025 23:37:23.483] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/ContraptionCollider (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.ContraptionCollider)
+[22Jul2025 23:37:23.483] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.ContraptionCollider was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinContraptionCollider
+[22Jul2025 23:37:23.487] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/depot/EntityLauncher (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.depot.EntityLauncher)
+[22Jul2025 23:37:23.487] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.depot.EntityLauncher was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinEntityLauncher
+[22Jul2025 23:37:23.490] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/redstone/link/RedstoneLinkNetworkHandler (java.lang.ClassNotFoundException: com.simibubi.create.content.redstone.link.RedstoneLinkNetworkHandler)
+[22Jul2025 23:37:23.490] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.redstone.link.RedstoneLinkNetworkHandler was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinRedstoneLinkNetworkHandler
+[22Jul2025 23:37:23.494] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/depot/SharedDepotBlockMethods (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.depot.SharedDepotBlockMethods)
+[22Jul2025 23:37:23.494] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.depot.SharedDepotBlockMethods was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinSharedDepotBlockMethods
+[22Jul2025 23:37:23.498] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/collision/Matrix3d (java.lang.ClassNotFoundException: com.simibubi.create.foundation.collision.Matrix3d)
+[22Jul2025 23:37:23.498] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.collision.Matrix3d was not found valkyrienskies-common.mixins.json:mod_compat.create.accessors.Matrix3dAccessor
+[22Jul2025 23:37:23.501] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/outliner/Outline$OutlineParams (java.lang.ClassNotFoundException: com.simibubi.create.foundation.outliner.Outline$OutlineParams)
+[22Jul2025 23:37:23.501] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.outliner.Outline$OutlineParams was not found valkyrienskies-common.mixins.json:mod_compat.create.accessors.OutlineParamsAccessor
+[22Jul2025 23:37:23.504] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingMovementBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.base.BlockBreakingMovementBehaviour)
+[22Jul2025 23:37:23.505] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.base.BlockBreakingMovementBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinBlockBreakingMovementBehaviour
+[22Jul2025 23:37:23.508] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/blockEntity/behaviour/filtering/FilteringBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.foundation.blockEntity.behaviour.filtering.FilteringBehaviour)
+[22Jul2025 23:37:23.508] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.blockEntity.behaviour.filtering.FilteringBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinFilteringBehaviour
+[22Jul2025 23:37:23.511] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/redstone/link/LinkBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.redstone.link.LinkBehaviour)
+[22Jul2025 23:37:23.511] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.redstone.link.LinkBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinLinkBehaviour
+[22Jul2025 23:37:23.514] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/blockEntity/behaviour/scrollValue/ScrollValueBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.foundation.blockEntity.behaviour.scrollValue.ScrollValueBehaviour)
+[22Jul2025 23:37:23.515] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.blockEntity.behaviour.scrollValue.ScrollValueBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinScrollValueBehaviour
+[22Jul2025 23:37:23.518] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/blockEntity/behaviour/filtering/SidedFilteringBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.foundation.blockEntity.behaviour.filtering.SidedFilteringBehaviour)
+[22Jul2025 23:37:23.518] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.blockEntity.behaviour.filtering.SidedFilteringBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinSidedFilteringBehaviour
+[22Jul2025 23:37:23.521] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/crusher/CrushingWheelBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.crusher.CrushingWheelBlock)
+[22Jul2025 23:37:23.521] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.crusher.CrushingWheelBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.block.MixinCrushingWheelBlock
+[22Jul2025 23:37:23.527] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/depot/EjectorBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.depot.EjectorBlock)
+[22Jul2025 23:37:23.528] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.depot.EjectorBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.block.MixinEjectorBlock
+[22Jul2025 23:37:23.530] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/redstone/contact/RedstoneContactBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.redstone.contact.RedstoneContactBlock)
+[22Jul2025 23:37:23.531] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.redstone.contact.RedstoneContactBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.block.MixinRedstoneContactBlock
+[22Jul2025 23:37:23.533] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/chassis/StickerBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.chassis.StickerBlock)
+[22Jul2025 23:37:23.533] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.chassis.StickerBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.block.MixinStickerBlock
+[22Jul2025 23:37:23.536] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/bearing/MechanicalBearingBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.bearing.MechanicalBearingBlockEntity)
+[22Jul2025 23:37:23.536] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.bearing.MechanicalBearingBlockEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.blockentity.IMixinMechanicalBearingTileEntity
+[22Jul2025 23:37:23.538] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/crusher/CrushingWheelControllerBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.crusher.CrushingWheelControllerBlockEntity)
+[22Jul2025 23:37:23.539] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.crusher.CrushingWheelControllerBlockEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.blockentity.MixinCrushingWheelControllerTileEntity
+[22Jul2025 23:37:23.541] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/depot/EjectorBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.depot.EjectorBlockEntity)
+[22Jul2025 23:37:23.541] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.depot.EjectorBlockEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.blockentity.MixinEjectorTileEntity
+[22Jul2025 23:37:23.544] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/fan/EncasedFanBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.fan.EncasedFanBlockEntity)
+[22Jul2025 23:37:23.545] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.fan.EncasedFanBlockEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.blockentity.MixinEncasedFanTileEntity
+[22Jul2025 23:37:23.548] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/blockEntity/behaviour/ValueBox (java.lang.ClassNotFoundException: com.simibubi.create.foundation.blockEntity.behaviour.ValueBox)
+[22Jul2025 23:37:23.548] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.blockEntity.behaviour.ValueBox was not found valkyrienskies-common.mixins.json:mod_compat.create.client.MixinValueBox
+[22Jul2025 23:37:23.551] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/AbstractContraptionEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.AbstractContraptionEntity)
+[22Jul2025 23:37:23.552] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.AbstractContraptionEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.entity.MixinAbstractContraptionEntity
+[22Jul2025 23:37:23.554] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/trains/entity/CarriageContraptionEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.trains.entity.CarriageContraptionEntity)
+[22Jul2025 23:37:23.554] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.trains.entity.CarriageContraptionEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.entity.MixinCarriageContraptionEntity
+[22Jul2025 23:37:23.557] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/ControlledContraptionEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.ControlledContraptionEntity)
+[22Jul2025 23:37:23.557] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.ControlledContraptionEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.entity.MixinControlledContraptionEntity
+[22Jul2025 23:37:23.560] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/actors/seat/SeatEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.actors.seat.SeatEntity)
+[22Jul2025 23:37:23.560] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.actors.seat.SeatEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.entity.MixinSeatEntity
+[22Jul2025 23:37:23.563] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/actors/trainControls/ControlsInputPacket (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.actors.trainControls.ControlsInputPacket)
+[22Jul2025 23:37:23.563] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.actors.trainControls.ControlsInputPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinControlsInputPacket
+[22Jul2025 23:37:23.566] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/trains/track/CurvedTrackDestroyPacket (java.lang.ClassNotFoundException: com.simibubi.create.content.trains.track.CurvedTrackDestroyPacket)
+[22Jul2025 23:37:23.566] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.trains.track.CurvedTrackDestroyPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinCurvedTrackDestroyPacket
+[22Jul2025 23:37:23.569] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/glue/SuperGlueRemovalPacket (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.glue.SuperGlueRemovalPacket)
+[22Jul2025 23:37:23.569] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.glue.SuperGlueRemovalPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinSuperGlueRemovalPacket
+[22Jul2025 23:37:23.572] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/networking/BlockEntityConfigurationPacket (java.lang.ClassNotFoundException: com.simibubi.create.foundation.networking.BlockEntityConfigurationPacket)
+[22Jul2025 23:37:23.572] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.networking.BlockEntityConfigurationPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinTileEntityConfigurationPacket
+[22Jul2025 23:37:23.576] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/trains/entity/TrainRelocationPacket (java.lang.ClassNotFoundException: com.simibubi.create.content.trains.entity.TrainRelocationPacket)
+[22Jul2025 23:37:23.576] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.trains.entity.TrainRelocationPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinTrainRelocationPacket
+[22Jul2025 23:37:23.579] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/actors/seat/SeatBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.actors.seat.SeatBlock)
+[22Jul2025 23:37:23.579] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.actors.seat.SeatBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.pr.MixinSeatBlock
+[22Jul2025 23:37:23.583] [main/WARN] [mixin/]: Error loading class: rbasamoyai/createbigcannons/cannon_control/contraption/PitchOrientedContraptionEntity (java.lang.ClassNotFoundException: rbasamoyai.createbigcannons.cannon_control.contraption.PitchOrientedContraptionEntity)
+[22Jul2025 23:37:23.585] [main/WARN] [mixin/]: Error loading class: com/jamieswhiteshirt/reachentityattributes/ReachEntityAttributes (java.lang.ClassNotFoundException: com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes)
+[22Jul2025 23:37:23.633] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.base.BlockBreakingKineticBlockEntity)
+[22Jul2025 23:37:23.634] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.base.BlockBreakingKineticBlockEntity was not found valkyrienskies-forge.mixins.json:compat.create.MixinBlockBreakingKineticTileEntity
+[22Jul2025 23:37:23.637] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/millstone/MillstoneBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.millstone.MillstoneBlock)
+[22Jul2025 23:37:23.639] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.millstone.MillstoneBlock was not found valkyrienskies-forge.mixins.json:compat.create.MixinBlocks
+[22Jul2025 23:37:23.643] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/processing/basin/BasinBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.processing.basin.BasinBlock)
+[22Jul2025 23:37:23.643] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.processing.basin.BasinBlock was not found valkyrienskies-forge.mixins.json:compat.create.MixinBlocks
+[22Jul2025 23:37:23.646] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/chute/AbstractChuteBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.chute.AbstractChuteBlock)
+[22Jul2025 23:37:23.646] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.chute.AbstractChuteBlock was not found valkyrienskies-forge.mixins.json:compat.create.MixinBlocks
+[22Jul2025 23:37:23.650] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/ControlledContraptionEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.ControlledContraptionEntity)
+[22Jul2025 23:37:23.650] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.ControlledContraptionEntity was not found valkyrienskies-forge.mixins.json:compat.create.MixinControlledContraptionEntity
+[22Jul2025 23:37:23.654] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/common/gui/BlockEntityInventory (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.common.gui.BlockEntityInventory)
+[22Jul2025 23:37:23.657] [main/WARN] [mixin/]: Error loading class: net/dries007/tfc/world/TFCChunkGenerator (java.lang.ClassNotFoundException: net.dries007.tfc.world.TFCChunkGenerator)
+[22Jul2025 23:37:23.661] [main/WARN] [mixin/]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
+[22Jul2025 23:37:23.665] [main/WARN] [mixin/]: Error loading class: li/cil/tis3d/common/entity/InfraredPacketEntity (java.lang.ClassNotFoundException: li.cil.tis3d.common.entity.InfraredPacketEntity)
+[22Jul2025 23:37:23.669] [main/WARN] [mixin/]: Error loading class: me/desht/modularrouters/container/RouterMenu (java.lang.ClassNotFoundException: me.desht.modularrouters.container.RouterMenu)
+[22Jul2025 23:37:23.682] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[22Jul2025 23:37:23.682] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[22Jul2025 23:37:23.682] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[22Jul2025 23:37:23.684] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[22Jul2025 23:37:23.684] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[22Jul2025 23:37:23.684] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[22Jul2025 23:37:23.686] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[22Jul2025 23:37:23.686] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[22Jul2025 23:37:23.914] [main/ERROR] [mixin/]: valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
 org.spongepowered.asm.mixin.transformer.throwables.InvalidInterfaceMixinException: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorInterface.prepareMethod(MixinPreProcessorInterface.java:65) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepare(MixinPreProcessorStandard.java:187) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
@@ -154,74 +154,72 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidInterfaceMixinExceptio
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21Jul2025 18:55:17.531] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[21Jul2025 18:55:24.416] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[22Jul2025 23:37:23.953] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[22Jul2025 23:37:30.726] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[21Jul2025 18:55:24.460] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping dungeonnowloading.forge.mixins.json:forge.structures.StructurePoolMixin->@ModifyConstant::dungeonnowloading_increaseWeightLimit(I)I with priority 1000, already redirected by yungsapi_forge.mixins.json:IncreaseStructureWeightLimitMixinForge->@ModifyConstant::yungsapi_increaseWeightLimit(I)I with priority 1000
-[21Jul2025 18:55:26.019] [modloading-worker-0/INFO] [chloride/Main]: Chloride is not intended to be on servers, loaded in inner mode
-[21Jul2025 18:55:26.226] [modloading-worker-0/INFO] [Dungeon Now Loading/]: Hello Forge world!
-[21Jul2025 18:55:26.581] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[21Jul2025 18:55:26.582] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[21Jul2025 18:55:27.220] [modloading-worker-0/INFO] [com.teamdurt.netherdungeons.NetherDungeons/]: Nether Dungeons mod init finished.
-[21Jul2025 18:55:27.321] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
-[21Jul2025 18:55:28.201] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[21Jul2025 18:55:33.092] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[21Jul2025 18:55:33.282] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[21Jul2025 18:55:33.284] [Thread-1/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[21Jul2025 18:55:33.285] [Thread-1/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[21Jul2025 18:55:33.559] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
-[21Jul2025 18:55:33.958] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Starting version check at https://api.modrinth.com/updates/MCnBYP0b/forge_updates.json
-[21Jul2025 18:55:34.242] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
-[21Jul2025 18:55:34.242] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
-[21Jul2025 18:55:34.243] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
-[21Jul2025 18:55:34.243] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
-[21Jul2025 18:55:34.243] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
-[21Jul2025 18:55:34.243] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
-[21Jul2025 18:55:34.244] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
-[21Jul2025 18:55:34.244] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
-[21Jul2025 18:55:34.244] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:throwable_using for minecraft:living_entity
-[21Jul2025 18:55:34.275] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Found status: OUTDATED Current: 1-v1.1.0c Target: 1.1.0c+mod
-[21Jul2025 18:55:34.275] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[21Jul2025 18:55:34.314] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[21Jul2025 18:55:34.316] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[21Jul2025 18:55:34.332] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[21Jul2025 18:55:34.332] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[21Jul2025 18:55:34.356] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
-[21Jul2025 18:55:34.373] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[21Jul2025 18:55:34.390] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[21Jul2025 18:55:34.394] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[21Jul2025 18:55:34.396] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
-[21Jul2025 18:55:34.397] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[21Jul2025 18:55:34.400] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
-[21Jul2025 18:55:35.009] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.15 Target: 1.20.1-1.0.32
-[21Jul2025 18:55:35.010] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
-[21Jul2025 18:55:35.045] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: OUTDATED Current: 3.4.18 Target: 3.4.26
-[21Jul2025 18:55:36.999] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21Jul2025 18:55:39.135] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/a/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23235!/assets/.mcassetsroot' uses unexpected schema
-[21Jul2025 18:55:39.135] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/a/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23235!/data/.mcassetsroot' uses unexpected schema
-[21Jul2025 18:55:52.373] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in /workspaces/a/servidor_minecraft/tacz
-[21Jul2025 18:55:52.375] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
-[21Jul2025 18:55:52.375] [main/INFO] [tacz/GunPackFinder]: Found 1 possible gunpack(s) and added them to resource set.
-[21Jul2025 18:55:52.505] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Successfully loaded 0 data remolders!
-[21Jul2025 18:55:54.291] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:vital_vein_tools as it is missing following references: #forge:vital_vein_hammer (from just_in_nether-1.1.7-forge-1.20.1.jar)
-[21Jul2025 18:55:54.302] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag legendary_monsters:ancient_stronghold_biomes as it is missing following references: minecraft:spruce_forest (from legendarymonsters-1.4.6 MC 1.20.1.jar)
-[21Jul2025 18:55:54.305] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag quark:vertical_slabs as it is missing following references: outer_end:azure_vertical_slab (from TheOuterEnd-1.0.10.jar), 
+[22Jul2025 23:37:30.772] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping dungeonnowloading.forge.mixins.json:forge.structures.StructurePoolMixin->@ModifyConstant::dungeonnowloading_increaseWeightLimit(I)I with priority 1000, already redirected by yungsapi_forge.mixins.json:IncreaseStructureWeightLimitMixinForge->@ModifyConstant::yungsapi_increaseWeightLimit(I)I with priority 1000
+[22Jul2025 23:37:32.042] [modloading-worker-0/INFO] [chloride/Main]: Chloride is not intended to be on servers, loaded in inner mode
+[22Jul2025 23:37:32.190] [modloading-worker-0/INFO] [Dungeon Now Loading/]: Hello Forge world!
+[22Jul2025 23:37:32.452] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[22Jul2025 23:37:32.453] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[22Jul2025 23:37:32.971] [modloading-worker-0/INFO] [com.teamdurt.netherdungeons.NetherDungeons/]: Nether Dungeons mod init finished.
+[22Jul2025 23:37:33.133] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[22Jul2025 23:37:33.861] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[22Jul2025 23:37:38.262] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[22Jul2025 23:37:38.491] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[22Jul2025 23:37:38.656] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[22Jul2025 23:37:39.057] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Starting version check at https://api.modrinth.com/updates/MCnBYP0b/forge_updates.json
+[22Jul2025 23:37:39.375] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[22Jul2025 23:37:39.375] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[22Jul2025 23:37:39.375] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[22Jul2025 23:37:39.375] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[22Jul2025 23:37:39.375] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[22Jul2025 23:37:39.375] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[22Jul2025 23:37:39.375] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[22Jul2025 23:37:39.375] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[22Jul2025 23:37:39.376] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:throwable_using for minecraft:living_entity
+[22Jul2025 23:37:39.447] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[22Jul2025 23:37:39.450] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[22Jul2025 23:37:39.453] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[22Jul2025 23:37:39.453] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[22Jul2025 23:37:39.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Found status: OUTDATED Current: 1-v1.1.0c Target: 1.1.0c+mod
+[22Jul2025 23:37:39.467] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22Jul2025 23:37:39.470] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[22Jul2025 23:37:39.486] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[22Jul2025 23:37:39.513] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[22Jul2025 23:37:39.517] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[22Jul2025 23:37:39.519] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[22Jul2025 23:37:39.584] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[22Jul2025 23:37:39.585] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[22Jul2025 23:37:40.254] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.15 Target: 1.20.1-1.0.32
+[22Jul2025 23:37:40.255] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[22Jul2025 23:37:40.291] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: OUTDATED Current: 3.4.18 Target: 3.4.26
+[22Jul2025 23:37:42.783] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Jul2025 23:37:44.838] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/a/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23235!/assets/.mcassetsroot' uses unexpected schema
+[22Jul2025 23:37:44.839] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/a/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23235!/data/.mcassetsroot' uses unexpected schema
+[22Jul2025 23:37:57.613] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in /workspaces/a/servidor_minecraft/tacz
+[22Jul2025 23:37:57.614] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
+[22Jul2025 23:37:57.615] [main/INFO] [tacz/GunPackFinder]: Found 1 possible gunpack(s) and added them to resource set.
+[22Jul2025 23:37:57.719] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Successfully loaded 0 data remolders!
+[22Jul2025 23:37:59.458] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag legendary_monsters:ancient_stronghold_biomes as it is missing following references: minecraft:spruce_forest (from legendarymonsters-1.4.6 MC 1.20.1.jar)
+[22Jul2025 23:37:59.463] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:vital_vein_tools as it is missing following references: #forge:vital_vein_hammer (from just_in_nether-1.1.7-forge-1.20.1.jar)
+[22Jul2025 23:37:59.466] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag quark:vertical_slabs as it is missing following references: outer_end:azure_vertical_slab (from TheOuterEnd-1.0.10.jar), 
 	outer_end:himmel_vertical_slab (from TheOuterEnd-1.0.10.jar), 
 	outer_end:violite_vertical_slab (from TheOuterEnd-1.0.10.jar), 
 	outer_end:violite_brick_vertical_slab (from TheOuterEnd-1.0.10.jar), 
 	outer_end:mossy_violite_brick_vertical_slab (from TheOuterEnd-1.0.10.jar), 
 	outer_end:violite_tile_vertical_slab (from TheOuterEnd-1.0.10.jar), 
 	outer_end:mossy_violite_tile_vertical_slab (from TheOuterEnd-1.0.10.jar)
-[21Jul2025 18:55:54.308] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:nuts as it is missing following references: minecraft:seanut (from Jellyfishing-2.0.7.jar)
-[21Jul2025 18:55:54.389] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:mushroom_grow_block as it is missing following references: netherdungeons:growth_mauve (from netherdungeons-1.1.0-snapshot4.jar)
-[21Jul2025 18:55:54.397] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag quark:vertical_slabs as it is missing following references: outer_end:azure_vertical_slab (from TheOuterEnd-1.0.10.jar), 
+[22Jul2025 23:37:59.467] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:nuts as it is missing following references: minecraft:seanut (from Jellyfishing-2.0.7.jar)
+[22Jul2025 23:37:59.516] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:mushroom_grow_block as it is missing following references: netherdungeons:growth_mauve (from netherdungeons-1.1.0-snapshot4.jar)
+[22Jul2025 23:37:59.520] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag quark:vertical_slabs as it is missing following references: outer_end:azure_vertical_slab (from TheOuterEnd-1.0.10.jar), 
 	outer_end:himmel_vertical_slab (from TheOuterEnd-1.0.10.jar), 
 	outer_end:violite_vertical_slab (from TheOuterEnd-1.0.10.jar), 
 	outer_end:violite_brick_vertical_slab (from TheOuterEnd-1.0.10.jar), 
 	outer_end:mossy_violite_brick_vertical_slab (from TheOuterEnd-1.0.10.jar), 
 	outer_end:violite_tile_vertical_slab (from TheOuterEnd-1.0.10.jar), 
 	outer_end:mossy_violite_tile_vertical_slab (from TheOuterEnd-1.0.10.jar)
-[21Jul2025 18:55:54.904] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/azure_vertical_slab
+[22Jul2025 23:38:00.299] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/azure_vertical_slab
 java.lang.IllegalArgumentException: Can't find block outer_end:azure_vertical_slab
 	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_81802_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -293,7 +291,7 @@ java.lang.IllegalArgumentException: Can't find block outer_end:azure_vertical_sl
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[21Jul2025 18:55:54.916] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/azure_ladder
+[22Jul2025 23:38:00.326] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/azure_ladder
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'outer_end:azure_ladder'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -345,7 +343,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[21Jul2025 18:55:55.078] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/azure_vertical_planks
+[22Jul2025 23:38:00.456] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/azure_vertical_planks
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'outer_end:azure_vertical_planks'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -397,7 +395,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[21Jul2025 18:55:55.091] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/azure_post
+[22Jul2025 23:38:00.463] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/azure_post
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'outer_end:azure_post'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -449,7 +447,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[21Jul2025 18:55:55.130] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/himmel_vertical_slab
+[22Jul2025 23:38:00.490] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/himmel_vertical_slab
 java.lang.IllegalArgumentException: Can't find block outer_end:himmel_vertical_slab
 	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_81802_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -521,7 +519,7 @@ java.lang.IllegalArgumentException: Can't find block outer_end:himmel_vertical_s
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[21Jul2025 18:55:55.462] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/stripped_azure_post
+[22Jul2025 23:38:00.857] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/stripped_azure_post
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'outer_end:stripped_azure_post'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -573,47 +571,47 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[21Jul2025 18:55:55.495] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 6 modifier groups
-[21Jul2025 18:55:55.555] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:just_in_nether:entities/pigmar}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[21Jul2025 18:55:55.555] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[21Jul2025 18:55:55.555] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:just_in_nether:entities/dullkin}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[21Jul2025 18:55:55.555] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[21Jul2025 18:55:55.555] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:just_in_nether:entities/pigmar}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[21Jul2025 18:55:55.555] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:just_in_nether:entities/bullkindar}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[21Jul2025 18:55:55.555] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/crown_squid}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[21Jul2025 18:55:55.556] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/walking_bed}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[21Jul2025 18:55:55.556] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:luminous_nether:entities/ghost}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[21Jul2025 18:55:55.556] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:just_in_nether:entities/dullkin}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[21Jul2025 18:55:55.556] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/blud}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[21Jul2025 18:55:55.556] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/prowler}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[21Jul2025 18:55:55.556] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:just_in_nether:entities/bullkindar}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[21Jul2025 18:55:55.556] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:luminous_nether:entities/piglin_ghost}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[21Jul2025 18:55:55.556] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/butcher}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[21Jul2025 18:55:55.558] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_bricks_from_kelp as it's serializer returned null
-[21Jul2025 18:55:55.558] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_furnace_boat as it's serializer returned null
-[21Jul2025 18:55:55.560] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/tiles/vertical_slab_from_violite_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.565] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_button_from_river_planks_sawing as it's serializer returned null
-[21Jul2025 18:55:55.565] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_button_from_river_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.566] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_door_from_river_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.568] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_brick_slab as it's serializer returned null
-[21Jul2025 18:55:55.569] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/bricks/vertical_slab_violite_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.571] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:himmel_vertical_slab as it's serializer returned null
-[21Jul2025 18:55:55.572] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_boards as it's serializer returned null
-[21Jul2025 18:55:55.573] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_slab_from_kelpy_cobblestone_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.580] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_ladder as it's serializer returned null
-[21Jul2025 18:55:55.583] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/bricks/vertical_slab as it's serializer returned null
-[21Jul2025 18:55:55.584] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_boards_from_driftwood_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.584] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_stairs_from_kelpy_cobblestone_tiles_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.585] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/bricks/slab_from_vertical_slab as it's serializer returned null
-[21Jul2025 18:55:55.586] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_brick_stairs_from_kelpy_cobblestone_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.586] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_slab_from_river_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.587] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:chiseled_river_bookshelf as it's serializer returned null
-[21Jul2025 18:55:55.588] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_stairs_from_kelpy_cobblestone_bricks_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.589] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_ladder_from_driftwood_planks_sawing as it's serializer returned null
-[21Jul2025 18:55:55.589] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_wall_from_kelpy_cobblestone_tiles_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.592] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_beehive as it's serializer returned null
-[21Jul2025 18:55:55.593] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:stripped_azure_post as it's serializer returned null
-[21Jul2025 18:55:55.597] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cutting/azure_sign
+[22Jul2025 23:38:00.902] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 6 modifier groups
+[22Jul2025 23:38:00.964] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:just_in_nether:entities/pigmar}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[22Jul2025 23:38:00.964] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[22Jul2025 23:38:00.964] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:just_in_nether:entities/dullkin}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[22Jul2025 23:38:00.964] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[22Jul2025 23:38:00.964] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:just_in_nether:entities/pigmar}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[22Jul2025 23:38:00.965] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:just_in_nether:entities/bullkindar}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[22Jul2025 23:38:00.965] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/crown_squid}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[22Jul2025 23:38:00.965] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/walking_bed}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[22Jul2025 23:38:00.965] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:luminous_nether:entities/ghost}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[22Jul2025 23:38:00.965] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:just_in_nether:entities/dullkin}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[22Jul2025 23:38:00.965] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/blud}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[22Jul2025 23:38:00.965] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/prowler}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[22Jul2025 23:38:00.965] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:just_in_nether:entities/bullkindar}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[22Jul2025 23:38:00.966] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:luminous_nether:entities/piglin_ghost}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[22Jul2025 23:38:00.966] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/butcher}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[22Jul2025 23:38:00.967] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_bricks_from_kelp as it's serializer returned null
+[22Jul2025 23:38:00.968] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_furnace_boat as it's serializer returned null
+[22Jul2025 23:38:00.970] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/tiles/vertical_slab_from_violite_stonecutting as it's serializer returned null
+[22Jul2025 23:38:00.975] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_button_from_river_planks_sawing as it's serializer returned null
+[22Jul2025 23:38:00.975] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_button_from_river_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:00.976] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_door_from_river_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:00.979] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_brick_slab as it's serializer returned null
+[22Jul2025 23:38:00.980] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/bricks/vertical_slab_violite_stonecutting as it's serializer returned null
+[22Jul2025 23:38:00.982] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:himmel_vertical_slab as it's serializer returned null
+[22Jul2025 23:38:00.983] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_boards as it's serializer returned null
+[22Jul2025 23:38:00.983] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_slab_from_kelpy_cobblestone_stonecutting as it's serializer returned null
+[22Jul2025 23:38:00.988] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_ladder as it's serializer returned null
+[22Jul2025 23:38:00.991] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/bricks/vertical_slab as it's serializer returned null
+[22Jul2025 23:38:00.992] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_boards_from_driftwood_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:00.992] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_stairs_from_kelpy_cobblestone_tiles_stonecutting as it's serializer returned null
+[22Jul2025 23:38:00.993] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/bricks/slab_from_vertical_slab as it's serializer returned null
+[22Jul2025 23:38:00.993] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_brick_stairs_from_kelpy_cobblestone_stonecutting as it's serializer returned null
+[22Jul2025 23:38:00.994] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_slab_from_river_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:00.994] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:chiseled_river_bookshelf as it's serializer returned null
+[22Jul2025 23:38:00.996] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_stairs_from_kelpy_cobblestone_bricks_stonecutting as it's serializer returned null
+[22Jul2025 23:38:00.997] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_ladder_from_driftwood_planks_sawing as it's serializer returned null
+[22Jul2025 23:38:00.997] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_wall_from_kelpy_cobblestone_tiles_stonecutting as it's serializer returned null
+[22Jul2025 23:38:00.999] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_beehive as it's serializer returned null
+[22Jul2025 23:38:01.000] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:stripped_azure_post as it's serializer returned null
+[22Jul2025 23:38:01.004] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cutting/azure_sign
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -642,7 +640,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmers
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21Jul2025 18:55:55.600] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe luminous_nether:supplementaries_ash_block
+[22Jul2025 23:38:01.007] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe luminous_nether:supplementaries_ash_block
 com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:ash'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -680,25 +678,25 @@ com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:ash'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21Jul2025 18:55:55.602] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_bookshelf as it's serializer returned null
-[21Jul2025 18:55:55.602] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/mossy_bricks/vertical_slab_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.607] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_ladder_from_river_planks_sawing as it's serializer returned null
-[21Jul2025 18:55:55.607] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/mossy_bricks/slab_from_vertical_slab as it's serializer returned null
-[21Jul2025 18:55:55.609] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_stairs_from_river_planks_sawing as it's serializer returned null
-[21Jul2025 18:55:55.610] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/vertical_slab_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.610] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/tiles/vertical_slab_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.610] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_sign_from_river_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.611] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_chest as it's serializer returned null
-[21Jul2025 18:55:55.612] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_slab_from_kelpy_cobblestone_tiles_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.612] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_boards_from_river_planks_sawing as it's serializer returned null
-[21Jul2025 18:55:55.613] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_brick_stairs_from_kelpy_cobblestone_bricks_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.615] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/mossy_tiles/vertical_slab_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.617] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:himmel_vertical_slab_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.617] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:large_river_boat as it's serializer returned null
-[21Jul2025 18:55:55.617] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/tiles/vertical_slab as it's serializer returned null
-[21Jul2025 18:55:55.618] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_fence_from_river_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.619] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_fence_gate_from_driftwood_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.620] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cutting/azure_pith
+[22Jul2025 23:38:01.008] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_bookshelf as it's serializer returned null
+[22Jul2025 23:38:01.009] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/mossy_bricks/vertical_slab_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.012] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_ladder_from_river_planks_sawing as it's serializer returned null
+[22Jul2025 23:38:01.013] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/mossy_bricks/slab_from_vertical_slab as it's serializer returned null
+[22Jul2025 23:38:01.015] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_stairs_from_river_planks_sawing as it's serializer returned null
+[22Jul2025 23:38:01.016] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/vertical_slab_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.016] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/tiles/vertical_slab_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.017] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_sign_from_river_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.018] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_chest as it's serializer returned null
+[22Jul2025 23:38:01.018] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_slab_from_kelpy_cobblestone_tiles_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.018] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_boards_from_river_planks_sawing as it's serializer returned null
+[22Jul2025 23:38:01.023] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_brick_stairs_from_kelpy_cobblestone_bricks_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.026] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/mossy_tiles/vertical_slab_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.029] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:himmel_vertical_slab_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.030] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:large_river_boat as it's serializer returned null
+[22Jul2025 23:38:01.031] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/tiles/vertical_slab as it's serializer returned null
+[22Jul2025 23:38:01.032] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_fence_from_river_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.033] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_fence_gate_from_driftwood_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.034] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cutting/azure_pith
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -727,16 +725,16 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmers
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21Jul2025 18:55:55.622] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_slab_from_driftwood_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.624] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_vertical_to_slab as it's serializer returned null
-[21Jul2025 18:55:55.625] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tiles as it's serializer returned null
-[21Jul2025 18:55:55.626] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_post as it's serializer returned null
-[21Jul2025 18:55:55.626] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_leaf_pile as it's serializer returned null
-[21Jul2025 18:55:55.627] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_furnace_boat as it's serializer returned null
-[21Jul2025 18:55:55.629] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_pressure_plate_from_river_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.630] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:trapped_driftwood_chest as it's serializer returned null
-[21Jul2025 18:55:55.630] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_fence_from_driftwood_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.631] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe outer_end:azure_chest
+[22Jul2025 23:38:01.039] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_slab_from_driftwood_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.040] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_vertical_to_slab as it's serializer returned null
+[22Jul2025 23:38:01.042] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tiles as it's serializer returned null
+[22Jul2025 23:38:01.043] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_post as it's serializer returned null
+[22Jul2025 23:38:01.044] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_leaf_pile as it's serializer returned null
+[22Jul2025 23:38:01.045] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_furnace_boat as it's serializer returned null
+[22Jul2025 23:38:01.049] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_pressure_plate_from_river_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.049] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:trapped_driftwood_chest as it's serializer returned null
+[22Jul2025 23:38:01.053] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_fence_from_driftwood_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.054] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe outer_end:azure_chest
 com.google.gson.JsonSyntaxException: Unknown item 'outer_end:azure_chest'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23240!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23240!/:?]
@@ -769,11 +767,11 @@ com.google.gson.JsonSyntaxException: Unknown item 'outer_end:azure_chest'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21Jul2025 18:55:55.633] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_wall_from_kelpy_cobblestone_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.634] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/slab_from_vertical_slab as it's serializer returned null
-[21Jul2025 18:55:55.635] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/mossy_tiles/slab_from_vertical_slab as it's serializer returned null
-[21Jul2025 18:55:55.635] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_bricks as it's serializer returned null
-[21Jul2025 18:55:55.636] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mofus_better_end_:end_engine_recipe
+[22Jul2025 23:38:01.056] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_wall_from_kelpy_cobblestone_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.057] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/slab_from_vertical_slab as it's serializer returned null
+[22Jul2025 23:38:01.057] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/mossy_tiles/slab_from_vertical_slab as it's serializer returned null
+[22Jul2025 23:38:01.057] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_bricks as it's serializer returned null
+[22Jul2025 23:38:01.059] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mofus_better_end_:end_engine_recipe
 com.google.gson.JsonSyntaxException: Unknown item 'mofus_better_end_:deleted_mod_element'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23240!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23240!/:?]
@@ -806,7 +804,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'mofus_better_end_:deleted_mod
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21Jul2025 18:55:55.639] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cutting/azure_door
+[22Jul2025 23:38:01.062] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cutting/azure_door
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -835,19 +833,19 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmers
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21Jul2025 18:55:55.640] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_ladder as it's serializer returned null
-[21Jul2025 18:55:55.641] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_leaves_from_leaf_piles as it's serializer returned null
-[21Jul2025 18:55:55.642] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_wall as it's serializer returned null
-[21Jul2025 18:55:55.644] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_planks_from_driftwood_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.645] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:trapped_river_chest as it's serializer returned null
-[21Jul2025 18:55:55.647] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_bookshelf as it's serializer returned null
-[21Jul2025 18:55:55.650] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_fence_from_river_planks_sawing as it's serializer returned null
-[21Jul2025 18:55:55.650] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_stairs_from_kelpy_cobblestone_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.652] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/mossy_tiles/vertical_slab as it's serializer returned null
-[21Jul2025 18:55:55.652] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/bricks/vertical_slab_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.652] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_vertical_to_planks as it's serializer returned null
-[21Jul2025 18:55:55.652] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_slab_from_driftwood_planks_sawing as it's serializer returned null
-[21Jul2025 18:55:55.654] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe netherdungeons:crafting/chiseled_polished_gilded_blackstone
+[22Jul2025 23:38:01.067] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_ladder as it's serializer returned null
+[22Jul2025 23:38:01.068] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_leaves_from_leaf_piles as it's serializer returned null
+[22Jul2025 23:38:01.072] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_wall as it's serializer returned null
+[22Jul2025 23:38:01.074] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_planks_from_driftwood_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.075] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:trapped_river_chest as it's serializer returned null
+[22Jul2025 23:38:01.075] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_bookshelf as it's serializer returned null
+[22Jul2025 23:38:01.078] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_fence_from_river_planks_sawing as it's serializer returned null
+[22Jul2025 23:38:01.079] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_stairs_from_kelpy_cobblestone_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.081] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/mossy_tiles/vertical_slab as it's serializer returned null
+[22Jul2025 23:38:01.081] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/bricks/vertical_slab_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.081] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_vertical_to_planks as it's serializer returned null
+[22Jul2025 23:38:01.081] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_slab_from_driftwood_planks_sawing as it's serializer returned null
+[22Jul2025 23:38:01.083] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe netherdungeons:crafting/chiseled_polished_gilded_blackstone
 com.google.gson.JsonSyntaxException: Unknown item 'netherdungeons:polished_gilded_blackstone_slab'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -885,8 +883,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'netherdungeons:polished_gilde
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21Jul2025 18:55:55.656] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:chiseled_driftwood_bookshelf as it's serializer returned null
-[21Jul2025 18:55:55.656] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ancient_dripstone_brick_stairs_left
+[22Jul2025 23:38:01.087] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:chiseled_driftwood_bookshelf as it's serializer returned null
+[22Jul2025 23:38:01.090] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ancient_dripstone_brick_stairs_left
 com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dripstone_brick'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -924,7 +922,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dr
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21Jul2025 18:55:55.659] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cutting/azure_stem
+[22Jul2025 23:38:01.094] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cutting/azure_stem
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -953,10 +951,10 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmers
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21Jul2025 18:55:55.663] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tiles_from_kelpy_cobblestone_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.664] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/mossy_bricks/vertical_slab as it's serializer returned null
-[21Jul2025 18:55:55.664] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_brick_wall_from_kelpy_cobblestone_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.665] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:purified_soul
+[22Jul2025 23:38:01.097] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tiles_from_kelpy_cobblestone_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.097] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/mossy_bricks/vertical_slab as it's serializer returned null
+[22Jul2025 23:38:01.098] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_brick_wall_from_kelpy_cobblestone_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.098] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:purified_soul
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:brewing'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -985,13 +983,13 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21Jul2025 18:55:55.668] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_fence_from_driftwood_planks_sawing as it's serializer returned null
-[21Jul2025 18:55:55.670] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_ladder_from_river_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.670] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_boards as it's serializer returned null
-[21Jul2025 18:55:55.671] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_chest as it's serializer returned null
-[21Jul2025 18:55:55.673] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/tiles/slab_from_vertical_slab as it's serializer returned null
-[21Jul2025 18:55:55.674] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_slab as it's serializer returned null
-[21Jul2025 18:55:55.675] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:dinosaur_bone_meal
+[22Jul2025 23:38:01.101] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_fence_from_driftwood_planks_sawing as it's serializer returned null
+[22Jul2025 23:38:01.103] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_ladder_from_river_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.103] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_boards as it's serializer returned null
+[22Jul2025 23:38:01.103] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_chest as it's serializer returned null
+[22Jul2025 23:38:01.105] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/tiles/slab_from_vertical_slab as it's serializer returned null
+[22Jul2025 23:38:01.106] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_slab as it's serializer returned null
+[22Jul2025 23:38:01.107] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:dinosaur_bone_meal
 com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_bone_meal'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23240!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23240!/:?]
@@ -1024,31 +1022,31 @@ com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_b
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21Jul2025 18:55:55.677] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_vertical_slab as it's serializer returned null
-[21Jul2025 18:55:55.677] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tiles_from_kelp as it's serializer returned null
-[21Jul2025 18:55:55.681] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:himmel_vertical_to_slab as it's serializer returned null
-[21Jul2025 18:55:55.683] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_ladder as it's serializer returned null
-[21Jul2025 18:55:55.684] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe jellyfishing:soap_to_supplementaries as it's serializer returned null
-[21Jul2025 18:55:55.684] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_planks_from_river_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.687] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_beehive as it's serializer returned null
-[21Jul2025 18:55:55.688] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_slab_from_kelpy_cobblestone_bricks_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.688] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_pressure_plate_from_driftwood_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.689] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_trapdoor_from_river_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.689] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_trapdoor_from_driftwood_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.690] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_bricks_from_kelpy_cobblestone_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.691] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_sign_from_driftwood_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.692] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_boards_from_river_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.693] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_brick_slab_from_kelpy_cobblestone_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.694] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_stairs_from_river_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.694] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_brick_wall as it's serializer returned null
-[21Jul2025 18:55:55.695] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_stairs_from_driftwood_planks_sawing as it's serializer returned null
-[21Jul2025 18:55:55.696] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_brick_slab_from_kelpy_cobblestone_bricks_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.696] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_button_from_driftwood_planks_sawing as it's serializer returned null
-[21Jul2025 18:55:55.697] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_fence_gate_from_river_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.698] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_vertical_planks as it's serializer returned null
-[21Jul2025 18:55:55.698] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_button_from_driftwood_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.700] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_brick_stairs as it's serializer returned null
-[21Jul2025 18:55:55.701] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cutting/azure_trapdoor
+[22Jul2025 23:38:01.108] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_vertical_slab as it's serializer returned null
+[22Jul2025 23:38:01.108] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tiles_from_kelp as it's serializer returned null
+[22Jul2025 23:38:01.112] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:himmel_vertical_to_slab as it's serializer returned null
+[22Jul2025 23:38:01.112] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_ladder as it's serializer returned null
+[22Jul2025 23:38:01.113] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe jellyfishing:soap_to_supplementaries as it's serializer returned null
+[22Jul2025 23:38:01.113] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_planks_from_river_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.116] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_beehive as it's serializer returned null
+[22Jul2025 23:38:01.117] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_slab_from_kelpy_cobblestone_bricks_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.117] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_pressure_plate_from_driftwood_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.117] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_trapdoor_from_river_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.117] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_trapdoor_from_driftwood_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.119] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_bricks_from_kelpy_cobblestone_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.119] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_sign_from_driftwood_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.120] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_boards_from_river_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.122] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_brick_slab_from_kelpy_cobblestone_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.122] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_stairs_from_river_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.122] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_brick_wall as it's serializer returned null
+[22Jul2025 23:38:01.124] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_stairs_from_driftwood_planks_sawing as it's serializer returned null
+[22Jul2025 23:38:01.125] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_brick_slab_from_kelpy_cobblestone_bricks_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.126] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_button_from_driftwood_planks_sawing as it's serializer returned null
+[22Jul2025 23:38:01.127] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_fence_gate_from_river_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.128] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_vertical_planks as it's serializer returned null
+[22Jul2025 23:38:01.129] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_button_from_driftwood_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.130] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_brick_stairs as it's serializer returned null
+[22Jul2025 23:38:01.131] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cutting/azure_trapdoor
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1077,12 +1075,12 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmers
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21Jul2025 18:55:55.703] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_wall_from_kelpy_cobblestone_bricks_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.704] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:large_driftwood_boat as it's serializer returned null
-[21Jul2025 18:55:55.704] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tiles_from_kelpy_cobblestone_bricks_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.706] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_boards_from_driftwood_planks_sawing as it's serializer returned null
-[21Jul2025 18:55:55.707] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_door_from_driftwood_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.708] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe outer_end:azure_trapped_chest
+[22Jul2025 23:38:01.133] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_wall_from_kelpy_cobblestone_bricks_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.133] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:large_driftwood_boat as it's serializer returned null
+[22Jul2025 23:38:01.133] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tiles_from_kelpy_cobblestone_bricks_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.134] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_boards_from_driftwood_planks_sawing as it's serializer returned null
+[22Jul2025 23:38:01.135] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_door_from_driftwood_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.136] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe outer_end:azure_trapped_chest
 com.google.gson.JsonSyntaxException: Unknown item 'outer_end:azure_chest'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1120,140 +1118,124 @@ com.google.gson.JsonSyntaxException: Unknown item 'outer_end:azure_chest'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21Jul2025 18:55:55.710] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_slab_from_river_planks_sawing as it's serializer returned null
-[21Jul2025 18:55:55.711] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_bookshelf as it's serializer returned null
-[21Jul2025 18:55:55.713] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_stairs_from_driftwood_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.713] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/vertical_slab as it's serializer returned null
-[21Jul2025 18:55:55.714] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_ladder_from_driftwood_logs_sawing as it's serializer returned null
-[21Jul2025 18:55:55.714] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_stairs as it's serializer returned null
-[21Jul2025 18:55:55.715] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_brick_wall_from_kelpy_cobblestone_bricks_stonecutting as it's serializer returned null
-[21Jul2025 18:55:55.719] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 13 recipes
-[21Jul2025 18:55:55.735] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 8 modifier groups
-[21Jul2025 18:55:55.762] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
-[21Jul2025 18:55:55.782] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
-[21Jul2025 18:55:55.792] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement outer_end:end/find_catacombs: Expected item to be an item, was unknown string 'outer_end:chiseled_violite'
-[21Jul2025 18:55:55.846] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
-[21Jul2025 18:55:55.867] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
-[21Jul2025 18:55:55.925] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2673 advancements
-[21Jul2025 18:55:55.938] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[21Jul2025 18:55:55.946] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[21Jul2025 18:55:55.952] [main/INFO] [com.aqutheseal.celestisynth.api.misc.CodecJsonDataManager/]: Beginning loading of data for data loader: tiered_item_stats
-[21Jul2025 18:55:55.952] [main/INFO] [com.aqutheseal.celestisynth.api.misc.CodecJsonDataManager/]: Data loader for tiered_item_stats loaded 0 jsons
-[21Jul2025 18:55:56.069] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 2 modifier groups
-[21Jul2025 18:55:57.800] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'minecraft:carpets' doesn't exist!
-[21Jul2025 18:55:57.950] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[21Jul2025 18:55:57.950] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[21Jul2025 18:55:57.951] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[21Jul2025 18:55:57.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[21Jul2025 18:55:58.174] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[21Jul2025 18:55:58.204] [e4mc_minecraft-init/INFO] [e4mc_minecraft/]: req: https://broker.e4mc.link/getBestRelay GET
-[21Jul2025 18:55:58.223] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[21Jul2025 18:55:58.319] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[21Jul2025 18:55:58.324] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21Jul2025 18:55:58.325] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[21Jul2025 18:55:58.325] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21Jul2025 18:55:58.325] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[21Jul2025 18:55:58.518] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[21Jul2025 18:55:58.896] [e4mc_minecraft-init/INFO] [e4mc_minecraft/]: resp: (GET https://broker.e4mc.link/getBestRelay) 200
-[21Jul2025 18:55:58.899] [e4mc_minecraft-init/INFO] [e4mc_minecraft/]: using relay na
-[21Jul2025 18:56:00.017] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[21Jul2025 18:56:00.062] [nioEventLoopGroup-2-1/INFO] [e4mc_minecraft/]: control channel open: [id: 0x5c3a94d1, QuicStreamAddress{streamId=0}]
-[21Jul2025 18:56:00.064] [nioEventLoopGroup-2-1/INFO] [e4mc_minecraft/]: control channel write complete
-[21Jul2025 18:56:00.090] [nioEventLoopGroup-2-1/WARN] [e4mc_minecraft/]: e4mc running on Dedicated Server; This works, but isn't recommended as e4mc is designed for short-lived LAN servers
-[21Jul2025 18:56:00.090] [nioEventLoopGroup-2-1/INFO] [e4mc_minecraft/]: Domain assigned: droplet-overture.na.e4mc.link
-[21Jul2025 18:56:00.096] [Server thread/INFO] [org.valkyrienskies.core.impl.networking.VSNetworking/]: We are not using UDP, falling back to TCP
-[21Jul2025 18:56:05.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[21Jul2025 18:56:05.079] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[21Jul2025 18:56:05.241] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[21Jul2025 18:56:05.825] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[21Jul2025 18:56:06.380] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[21Jul2025 18:56:06.666] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Jul2025 18:56:06.695] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Jul2025 18:56:06.721] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Jul2025 18:56:06.737] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Jul2025 18:56:07.228] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Jul2025 18:56:07.495] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[21Jul2025 18:56:07.556] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Jul2025 18:56:08.405] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Jul2025 18:56:08.496] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[21Jul2025 18:56:08.555] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Jul2025 18:56:09.051] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Jul2025 18:56:09.498] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[21Jul2025 18:56:09.851] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Jul2025 18:56:10.054] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Jul2025 18:56:10.501] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[21Jul2025 18:56:10.550] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[21Jul2025 18:56:11.050] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
-[21Jul2025 18:56:11.531] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[21Jul2025 18:56:11.565] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
-[21Jul2025 18:56:11.568] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6518 ms
-[21Jul2025 18:56:11.568] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.228s)! For help, type "help"
-[21Jul2025 18:56:11.615] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[21Jul2025 18:56:11.620] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[21Jul2025 18:56:11.620] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[21Jul2025 18:56:50.692] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Toshi003[/127.33.254.30:43885] logged in with entity id 77 at (-780.5714360279911, 67.0, 417.3583086038566)
-[21Jul2025 18:56:50.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 joined the game
-[21Jul2025 18:56:50.823] [Server thread/INFO] [Jade/]: Syncing config to Toshi003 (f19b99f7-d451-3c04-9b78-c3dd5ccc1b80)
-[21Jul2025 18:56:52.888] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2217ms or 44 ticks behind
-[21Jul2025 18:57:47.254] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityHippocampus['Hippocampus'/440, l='ServerLevel[otrserver]', x=-745.21, y=62.55, z=223.97]
-[21Jul2025 19:35:13.891] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 339.2244173064828] -> [-864.2575314957649, 65.00610429064568, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 19:35:18.890] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 334.07344992849255] -> [-864.333694925807, 65.00609946757177, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 19:35:23.935] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 328.53310271776644] -> [-864.4352060756001, 65.00620810761411, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 19:35:28.935] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 339.53946736454964] -> [-864.9976308252662, 65.2212708220209, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 19:35:33.936] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 338.2248703017831] -> [-866.1988269817084, 65.02430394265174, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 19:58:42.244] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 62.800636526169185, 338.27242544293404] -> [-866.1213111337274, 64.60063647848547, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 19:58:47.284] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 338.47316267203246] -> [-864.6998449237168, 64.89241574371718, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 19:58:52.288] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 62.90199278378324, 338.2639619308005] -> [-865.1243175240204, 64.70199273609953, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:16:10.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [A Seedy Place]
-[21Jul2025 20:20:53.084] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 338.38207916915417] -> [-864.9150969916955, 64.83901084586239, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:20:58.088] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 333.823020863765] -> [-865.2064791883513, 64.84130436453854, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:40:55.236] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 336.0575718358159] -> [-866.2966529075056, 64.8395036141491, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:41:00.287] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 330.14924761993734] -> [-866.9273672141009, 64.83906227119672, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:41:05.287] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 327.409616794176] -> [-867.2079502202123, 64.84020033943172, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:41:10.337] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 334.5875267907977] -> [-866.4547463022172, 64.8397106432698, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:57:09.286] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 335.37340930849314] -> [-866.3830712493509, 65.12302030622311, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:57:14.335] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 336.5064699191504] -> [-861.7513554295041, 65.10091241645222, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:57:19.385] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 341.37401131717894] -> [-859.6182841417038, 65.109526283352, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:57:24.433] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 344.9302526568567] -> [-857.3179095320388, 65.10541814497739, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:57:29.434] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 347.7705605352386] -> [-857.5251349182656, 65.09748032846235, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:57:34.483] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 343.54293686487364] -> [-855.0557387624826, 65.11476657646585, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:57:39.533] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 342.4623324852437] -> [-860.0722894668579, 65.40048989410909, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:57:44.533] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 340.6862012393052] -> [-860.8008586336526, 65.72803470669129, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:57:49.584] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 340.90659257769585] -> [-861.1376419439912, 65.21979396603817, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:57:54.636] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 342.849463833496] -> [-858.6009175516665, 65.06438911121357, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:57:59.682] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 344.05305566149] -> [-860.5762314062674, 65.0998924583676, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:58:04.683] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 342.7877756967316] -> [-857.141300458184, 65.11089024905232, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 20:58:09.684] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 340.90930335830103] -> [-859.7639540505619, 65.31687668393907, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 21:14:55.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[21Jul2025 21:14:55.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 1<--[HERE]
-[21Jul2025 21:17:21.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [Tactical Fishing]
-[21Jul2025 21:29:14.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [Ice Bucket Challenge]
-[21Jul2025 21:35:36.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 was blown up by Creeper
-[21Jul2025 21:36:43.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 was blown up by Creeper
-[21Jul2025 21:38:25.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 was doomed to fall by Skeleton
-[21Jul2025 21:38:31.540] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-1419.1899999976158, 52.929999977350235, -174.1899999976158] -> [-393.8100000023842, 59.770000010728836, 851.1899999976158] returning empty list! this might break things
-[21Jul2025 21:38:36.577] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-1424.138534080626, 55.25613219397853, -177.35182728710993] -> [-398.75853408539444, 62.09613222735713, 848.0281727081217] returning empty list! this might break things
-[21Jul2025 21:38:41.627] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-1426.2249716865927, 54.362568165072275, -178.2223696593764] -> [-400.84497169136114, 61.20256819845088, 847.1576303358552] returning empty list! this might break things
-[21Jul2025 21:38:46.627] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-1426.2249716865927, 54.86256816507253, -178.2223696593764] -> [-400.84497169136114, 61.70256819845113, 847.1576303358552] returning empty list! this might break things
-[21Jul2025 21:46:07.784] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 339.8610460329801] -> [-859.8064706288278, 65.08911053889207, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 21:46:12.784] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 344.28887036287426] -> [-857.5207261662989, 65.0891318284497, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 21:46:17.786] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669947650000006E7, 63.0, 349.93251205794513] -> [-850.7663176767528, 65.07729101275281, 1.2290061650000006E7] returning empty list! this might break things
-[21Jul2025 21:51:53.621] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[21Jul2025 21:51:54.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [Incendium]
-[21Jul2025 21:51:54.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has reached the goal [Nether's Overhaul]
-[21Jul2025 21:51:54.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [We Need to Go Deeper]
-[21Jul2025 21:51:54.623] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[21Jul2025 21:51:55.624] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[21Jul2025 21:51:56.626] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[21Jul2025 21:51:57.198] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8527ms or 170 ticks behind
-[21Jul2025 21:51:57.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [A Terrible Fortress]
-[21Jul2025 21:51:57.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [Radioactive]
-[21Jul2025 21:52:50.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [Not mushroom for desert]
-[21Jul2025 21:53:50.234] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity realmrpg_demons:demon_lord but it was marked as removed already
-[21Jul2025 21:57:32.277] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/40865, l='ServerLevel[otrserver]', x=-45.02, y=-20.00, z=157.18] died: Toxic Slime was killed
-[21Jul2025 21:58:09.277] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/40957, l='ServerLevel[otrserver]', x=-31.22, y=-20.00, z=55.26] died: Toxic Slime was killed
-[21Jul2025 21:59:46.277] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Slime['Toxic Slime'/41150, l='ServerLevel[otrserver]', x=-53.26, y=-20.00, z=69.74] died: Toxic Slime was killed
-[21Jul2025 22:00:47.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [Into Fire]
-[21Jul2025 22:00:48.032] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity realmrpg_demons:demon_lord but it was marked as removed already
-[21Jul2025 22:01:10.030] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity realmrpg_demons:demon_lord but it was marked as removed already
-[21Jul2025 22:01:40.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [Hot to the Touch]
+[22Jul2025 23:38:01.138] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:river_slab_from_river_planks_sawing as it's serializer returned null
+[22Jul2025 23:38:01.138] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_bookshelf as it's serializer returned null
+[22Jul2025 23:38:01.140] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_stairs_from_driftwood_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.140] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/vertical_slab as it's serializer returned null
+[22Jul2025 23:38:01.141] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:driftwood_ladder_from_driftwood_logs_sawing as it's serializer returned null
+[22Jul2025 23:38:01.141] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_tile_stairs as it's serializer returned null
+[22Jul2025 23:38:01.141] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe upgrade_aquatic:kelpy_cobblestone_brick_wall_from_kelpy_cobblestone_bricks_stonecutting as it's serializer returned null
+[22Jul2025 23:38:01.144] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 13 recipes
+[22Jul2025 23:38:01.156] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 8 modifier groups
+[22Jul2025 23:38:01.180] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[22Jul2025 23:38:01.194] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[22Jul2025 23:38:01.201] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement outer_end:end/find_catacombs: Expected item to be an item, was unknown string 'outer_end:chiseled_violite'
+[22Jul2025 23:38:01.238] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[22Jul2025 23:38:01.250] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[22Jul2025 23:38:01.295] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2673 advancements
+[22Jul2025 23:38:01.309] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[22Jul2025 23:38:01.318] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[22Jul2025 23:38:01.322] [main/INFO] [com.aqutheseal.celestisynth.api.misc.CodecJsonDataManager/]: Beginning loading of data for data loader: tiered_item_stats
+[22Jul2025 23:38:01.322] [main/INFO] [com.aqutheseal.celestisynth.api.misc.CodecJsonDataManager/]: Data loader for tiered_item_stats loaded 0 jsons
+[22Jul2025 23:38:01.506] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 2 modifier groups
+[22Jul2025 23:38:03.383] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'minecraft:carpets' doesn't exist!
+[22Jul2025 23:38:03.495] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[22Jul2025 23:38:03.495] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[22Jul2025 23:38:03.495] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[22Jul2025 23:38:03.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Jul2025 23:38:03.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[22Jul2025 23:38:03.651] [e4mc_minecraft-init/INFO] [e4mc_minecraft/]: req: https://broker.e4mc.link/getBestRelay GET
+[22Jul2025 23:38:03.673] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[22Jul2025 23:38:03.764] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[22Jul2025 23:38:03.772] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22Jul2025 23:38:03.772] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[22Jul2025 23:38:03.772] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22Jul2025 23:38:03.772] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[22Jul2025 23:38:03.991] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[22Jul2025 23:38:04.289] [e4mc_minecraft-init/INFO] [e4mc_minecraft/]: resp: (GET https://broker.e4mc.link/getBestRelay) 200
+[22Jul2025 23:38:04.293] [e4mc_minecraft-init/INFO] [e4mc_minecraft/]: using relay na
+[22Jul2025 23:38:05.108] [nioEventLoopGroup-2-1/INFO] [e4mc_minecraft/]: control channel open: [id: 0x374e3388, QuicStreamAddress{streamId=0}]
+[22Jul2025 23:38:05.110] [nioEventLoopGroup-2-1/INFO] [e4mc_minecraft/]: control channel write complete
+[22Jul2025 23:38:05.122] [nioEventLoopGroup-2-1/WARN] [e4mc_minecraft/]: e4mc running on Dedicated Server; This works, but isn't recommended as e4mc is designed for short-lived LAN servers
+[22Jul2025 23:38:05.122] [nioEventLoopGroup-2-1/INFO] [e4mc_minecraft/]: Domain assigned: consent-cussed.na.e4mc.link
+[22Jul2025 23:38:05.692] [Server thread/INFO] [org.valkyrienskies.core.impl.networking.VSNetworking/]: We are not using UDP, falling back to TCP
+[22Jul2025 23:38:10.860] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[22Jul2025 23:38:10.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Jul2025 23:38:11.865] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[22Jul2025 23:38:12.866] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[22Jul2025 23:38:13.867] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[22Jul2025 23:38:14.848] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:14.854] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:14.855] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:14.856] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:14.856] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:14.868] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[22Jul2025 23:38:42.957] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.958] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.959] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.959] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.960] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.961] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.962] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.965] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.966] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.967] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.969] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.970] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.971] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.971] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.972] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.972] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.973] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.974] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.975] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.976] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.976] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.977] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.978] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.978] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.979] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.979] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.980] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.981] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.981] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.982] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.983] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.986] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.987] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.989] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.989] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.990] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.991] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.991] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.992] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.992] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.993] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.993] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.995] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.996] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:42.997] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:43.000] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:43.002] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:43.003] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:43.005] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:43.006] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:43.007] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:43.007] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:43.008] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:43.009] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:43.009] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:43.010] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:43.011] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:43.011] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:43.012] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:43.013] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jul2025 23:38:43.438] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[22Jul2025 23:38:43.938] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[22Jul2025 23:38:43.958] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[22Jul2025 23:38:44.204] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 33266 ms
+[22Jul2025 23:38:44.205] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (40.393s)! For help, type "help"
+[22Jul2025 23:38:44.334] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[22Jul2025 23:38:44.338] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[22Jul2025 23:38:44.338] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[22Jul2025 23:38:44.959] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
