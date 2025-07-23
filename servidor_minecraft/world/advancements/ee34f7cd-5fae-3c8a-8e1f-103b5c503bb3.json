@@ -3300,9 +3300,27 @@
     },
     "done": true
   },
+  "immersive_armors:recipes/misc/prismarine": {
+    "criteria": {
+      "has_item": "2025-07-23 01:11:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2025-07-23 01:11:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_sandstone": {
     "criteria": {
       "has_sandstone": "2025-07-23 00:26:29 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_deepblue_helmet": {
+    "criteria": {
+      "has_item": "2025-07-23 01:11:25 +0000"
     },
     "done": true
   },
@@ -3336,6 +3354,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/kill_siren": {
+    "criteria": {
+      "killed_fire_dragon": "2025-07-23 01:07:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2025-07-23 00:58:24 +0000"
@@ -3354,15 +3378,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2025-07-23 01:11:54 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/combat/tide_bronze_leggings": {
     "criteria": {
       "has_item": "2025-07-23 00:49:08 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2025-07-23 01:11:54 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/combat/tide_green_leggings": {
     "criteria": {
       "has_item": "2025-07-23 00:49:04 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_deepblue_chestplate": {
+    "criteria": {
+      "has_item": "2025-07-23 01:11:25 +0000"
     },
     "done": true
   },
@@ -3390,9 +3432,21 @@
     },
     "done": true
   },
+  "iceandfire:recipes/building_blocks/sea_serpent_scales_deepblue_to_sea_serpent_scale_block_deepblue": {
+    "criteria": {
+      "has_sea_serpent_scales_deepblue": "2025-07-23 01:11:25 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/combat/tide_trident": {
     "criteria": {
       "has_item": "2025-07-23 00:49:12 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_sea_serpent": {
+    "criteria": {
+      "killed_fire_dragon": "2025-07-23 01:11:01 +0000"
     },
     "done": true
   },
@@ -3441,6 +3495,18 @@
   "iceandfire:recipes/building_blocks/sea_serpent_scales_bronze_to_sea_serpent_scale_block_bronze": {
     "criteria": {
       "has_sea_serpent_scales_bronze": "2025-07-23 00:49:08 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_deepblue_leggings": {
+    "criteria": {
+      "has_item": "2025-07-23 01:11:25 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_deepblue_boots": {
+    "criteria": {
+      "has_item": "2025-07-23 01:11:25 +0000"
     },
     "done": true
   },
