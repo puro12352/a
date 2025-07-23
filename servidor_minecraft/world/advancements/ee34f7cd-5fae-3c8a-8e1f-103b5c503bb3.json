@@ -733,6 +733,7 @@
     "criteria": {
       "minecraft:pillager": "2025-07-20 01:27:46 +0000",
       "minecraft:skeleton": "2025-07-19 01:33:22 +0000",
+      "minecraft:hoglin": "2025-07-23 01:38:26 +0000",
       "minecraft:vindicator": "2025-07-19 00:45:22 +0000",
       "minecraft:spider": "2025-07-19 21:38:43 +0000",
       "minecraft:creeper": "2025-07-20 00:00:16 +0000",
@@ -3336,6 +3337,12 @@
     },
     "done": true
   },
+  "netherdungeons:recipes/smoking/cooked_hoglin_leg": {
+    "criteria": {
+      "has_beef": "2025-07-23 01:38:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2025-07-23 01:20:52 +0000"
@@ -3357,6 +3364,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone": {
     "criteria": {
       "has_sandstone": "2025-07-23 00:26:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2025-07-23 01:46:36 +0000"
     },
     "done": true
   },
@@ -3439,6 +3452,12 @@
     },
     "done": true
   },
+  "netherdungeons:recipes/smelting/cooked_hoglin_leg": {
+    "criteria": {
+      "has_beef": "2025-07-23 01:38:50 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/combat/tide_green_leggings": {
     "criteria": {
       "has_item": "2025-07-23 00:49:04 +0000"
@@ -3478,6 +3497,12 @@
   "minecraft:recipes/food/pumpkin_seeds": {
     "criteria": {
       "has_pumpkin": "2025-07-23 01:31:21 +0000"
+    },
+    "done": true
+  },
+  "netherdungeons:recipes/campfire_cooking/cooked_hoglin_leg": {
+    "criteria": {
+      "has_beef": "2025-07-23 01:38:50 +0000"
     },
     "done": true
   },
@@ -3595,6 +3620,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-07-23 01:49:15 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/combat/tide_green_boots": {
     "criteria": {
       "has_item": "2025-07-23 00:49:04 +0000"
@@ -3640,6 +3671,12 @@
   "iceandfire:recipes/combat/tide_bronze_boots": {
     "criteria": {
       "has_item": "2025-07-23 00:49:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-07-23 01:49:15 +0000"
     },
     "done": true
   },
