@@ -1195,3 +1195,42 @@ com.google.gson.JsonSyntaxException: Unknown item 'outer_end:azure_chest'
 [23Jul2025 00:21:09.240] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YAMAL[/127.172.33.24:37197] logged in with entity id 449 at (-1057.3168483053605, 69.7531999805212, 373.7778939294742)
 [23Jul2025 00:21:09.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YAMAL joined the game
 [23Jul2025 00:21:09.338] [Server thread/INFO] [Jade/]: Syncing config to YAMAL (ee34f7cd-5fae-3c8a-8e1f-103b5c503bb3)
+[23Jul2025 00:39:44.125] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-1104.1899999976158, 49.929999977350235, 452.8100000023842] -> [-78.81000000238419, 56.770000010728836, 1478.1899999976158] returning empty list! this might break things
+[23Jul2025 00:39:47.177] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Sand'/5834, l='ServerLevel[otrserver]', x=-738.50, y=57.00, z=867.50]
+[23Jul2025 00:39:47.602] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Sand'/5842, l='ServerLevel[otrserver]', x=-738.50, y=57.00, z=867.50]
+[23Jul2025 00:39:49.155] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-1101.633408130032, 48.703121152391546, 453.48782309802027] -> [-76.25340813480034, 55.54312118577015, 1478.867823093252] returning empty list! this might break things
+[23Jul2025 00:39:54.216] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-1101.0993965787738, 46.752113584257245, 454.90026651978474] -> [-75.71939658354222, 53.592113617635846, 1480.2802665150164] returning empty list! this might break things
+[23Jul2025 00:39:59.251] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-1101.0993965787738, 46.752113584257245, 454.90026651978474] -> [-75.71939658354222, 53.592113617635846, 1480.2802665150164] returning empty list! this might break things
+[23Jul2025 00:40:00.599] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:40:00.600] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:40:25.495] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Sand'/7089, l='ServerLevel[otrserver]', x=-1064.50, y=17.00, z=920.50]
+[23Jul2025 00:40:34.994] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:40:34.995] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:41:33.244] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:41:33.245] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:41:37.244] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Sand'/7499, l='ServerLevel[otrserver]', x=-988.50, y=61.00, z=843.50]
+[23Jul2025 00:42:37.644] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:42:37.645] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:43:14.694] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:43:25.445] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:43:25.446] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:43:25.446] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:44:53.081] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=15, y=-40, z=-499}
+[23Jul2025 00:44:53.083] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=15, y=-40, z=-503}
+[23Jul2025 00:44:53.871] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:44:53.872] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:44:53.872] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:45:37.845] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:46:38.494] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:47:18.744] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:47:24.693] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:47:24.694] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:47:24.694] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:47:39.062] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Toshi003) moved wrongly! 0.45068595502596054
+[23Jul2025 00:47:39.262] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Toshi003) moved wrongly! 0.5064026965450239
+[23Jul2025 00:48:03.045] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:48:15.593] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:48:15.594] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:48:15.594] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 00:48:42.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 has made the advancement [Sea? Not a Problem]
+[23Jul2025 00:48:58.846] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Sand'/26322, l='ServerLevel[otrserver]', x=-736.50, y=57.00, z=867.50]
