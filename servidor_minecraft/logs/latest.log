@@ -2252,3 +2252,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'outer_end:azure_chest'
 [23Jul2025 01:19:51.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 joined the game
 [23Jul2025 01:19:51.596] [Server thread/INFO] [Jade/]: Syncing config to Toshi003 (f19b99f7-d451-3c04-9b78-c3dd5ccc1b80)
 [23Jul2025 01:27:34.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xtarex> ||||
+[23Jul2025 01:35:05.595] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 01:36:16.744] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 01:36:30.644] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 01:38:32.045] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 01:38:32.045] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
