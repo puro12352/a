@@ -2248,3 +2248,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'outer_end:azure_chest'
 [23Jul2025 01:19:39.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 left the game
 [23Jul2025 01:19:39.530] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16538ms or 330 ticks behind
 [23Jul2025 01:19:39.746] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity thalassophobia:bathotrap_spawn but it was marked as removed already
+[23Jul2025 01:19:51.578] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Toshi003[/127.33.254.30:60233] logged in with entity id 42985 at (-840.1984258331358, 69.33433044157573, 362.59115248173475)
+[23Jul2025 01:19:51.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Toshi003 joined the game
+[23Jul2025 01:19:51.596] [Server thread/INFO] [Jade/]: Syncing config to Toshi003 (f19b99f7-d451-3c04-9b78-c3dd5ccc1b80)
+[23Jul2025 01:27:34.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xtarex> ||||
